@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Portfolio of Asardeen Azees — software engineer, AI automation engineer, and full-stack developer.">
+  <meta name="description" content="Portfolio of Asardeen Azees: software engineer, AI automation engineer, and full-stack developer.">
   <meta name="theme-color" content="#f3f6fb" id="theme-color-meta">
   <title>Asardeen Azees | Portfolio</title>
   <link rel="stylesheet" href="./assets/css/styles.css">
@@ -36,9 +36,19 @@
           <li><a class="nav-link" href="#contact">Contact</a></li>
         </ul>
 
-        <button class="theme-toggle" id="theme-toggle" type="button" aria-label="Toggle color theme" aria-pressed="false">
-          <i class="bx bx-moon"></i>
-          <span>Theme</span>
+        <button class="theme-toggle" id="theme-toggle" type="button" aria-pressed="false" aria-label="Switch to dark mode">
+          <span class="theme-toggle-track" aria-hidden="true">
+            <span class="theme-toggle-glow"></span>
+            <span class="theme-toggle-icons-bg">
+              <i class="bx bx-sun"></i>
+              <i class="bx bx-moon"></i>
+            </span>
+            <span class="theme-toggle-thumb">
+              <i class="bx bx-moon theme-toggle-thumb-i theme-toggle-thumb-i--moon"></i>
+              <i class="bx bx-sun theme-toggle-thumb-i theme-toggle-thumb-i--sun"></i>
+            </span>
+          </span>
+          <span class="theme-toggle-label">Dark</span>
         </button>
       </div>
     </nav>
@@ -51,8 +61,8 @@
           <p class="eyebrow">Software Engineer · AI Automation Engineer · Full-Stack</p>
           <h1>Hi, I'm <span>Asardeen Azees</span></h1>
           <p class="hero-description">
-            I build modern, reliable web applications and intelligent automation—clean architecture,
-            responsive interfaces, scalable backends, and practical AI-driven workflows.
+            I build full-stack web apps and automation. I focus on clear architecture, UIs that work on real devices,
+            backends that scale, and ML only where it earns its place.
           </p>
 
           <div class="hero-badges">
@@ -66,7 +76,7 @@
           </div>
 
           <ul class="social-list" aria-label="Social links">
-            <li><a href="https://github.com/IT21231896" target="_blank" rel="noopener noreferrer" aria-label="GitHub"><i class="bx bxl-github"></i></a></li>
+            <li><a href="https://github.com/AsardeenAzees" target="_blank" rel="noopener noreferrer" aria-label="GitHub"><i class="bx bxl-github"></i></a></li>
             <li><a href="https://www.linkedin.com/in/asardeen-azees/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn"><i class="bx bxl-linkedin-square"></i></a></li>
             <li><a href="https://web.facebook.com/kijan.mohamed.7" target="_blank" rel="noopener noreferrer" aria-label="Facebook"><i class="bx bxl-facebook-circle"></i></a></li>
             <li><a href="https://instagram.com/hijan_azar?igshid=YTQwZjQ0NmI0OA==" target="_blank" rel="noopener noreferrer" aria-label="Instagram"><i class="bx bxl-instagram"></i></a></li>
@@ -80,7 +90,7 @@
             </div>
             <div class="hero-card-info">
               <h2>Asardeen Azees</h2>
-              <p>Software engineer &amp; AI automation engineer—shipping dependable products.</p>
+              <p>Software engineer and AI automation engineer. I care about shipping things that keep working after launch.</p>
               <span class="hero-card-role">Open to opportunities</span>
             </div>
           </div>
@@ -91,21 +101,33 @@
     <section class="section" id="about">
       <div class="container">
         <div class="section-heading reveal">
-          <p class="section-kicker">Who I am</p>
+          <p class="section-kicker">About</p>
           <h2>About Me</h2>
         </div>
 
         <div class="about-grid">
-          <article class="card reveal">
+          <article class="card reveal profile-card">
             <h3>Profile</h3>
             <p>
-              I am a BSc (Hons) in Information Technology graduate, specializing in Information Technology,
-              with strong hands-on experience in designing and developing reliable software solutions. I have
-              worked on enterprise-level systems, full-stack web applications, process automation, and AI-driven
-              automation initiatives. I am skilled in problem-solving, system design, and delivering high-quality solutions that meet business
-              requirements. I adapt quickly to new technologies and work effectively in team-oriented, fast-paced
-              environments. I am eager to contribute my skills and grow as a software engineer in a professional
-              organization.
+              BSc (Hons) Information Technology graduate with hands-on experience building real-world software systems and
+              AI-driven automation.
+            </p>
+            <p>
+              Currently working on automation systems that combine LLMs, APIs, and data pipelines to reduce manual work and
+              streamline business processes. I&apos;ve built browser-based automation integrated with Salesforce, developed
+              scalable backend services, and deployed production-ready solutions using Python, Node.js, and AWS.
+            </p>
+            <p>
+              I focus on turning complex requirements into practical systems: clean APIs, reliable data flows, and responsive
+              user interfaces that actually work in real environments.
+            </p>
+            <p>
+              I work best in fast-moving teams where I can take ownership, build end-to-end solutions, and continuously improve
+              how things are done.
+            </p>
+            <p>
+              Right now, I&apos;m looking for an opportunity to grow as a software/AI engineer and contribute to building
+              impactful, scalable systems.
             </p>
           </article>
 
@@ -115,13 +137,19 @@
             <p>Degree: <strong>BSc (Hons) in Information Technology</strong></p>
             <p>Graduation: <strong>June 2025</strong></p>
             <p>
-              I have successfully completed my BSc (Hons) in Information Technology, gaining a strong foundation in
-              software development, database management, and system analysis. During my studies, I explored various areas
-              of IT including web and mobile application development, full-stack programming, and enterprise system
-              integration. I am eager to apply these skills to real-world projects and contribute effectively to
-              professional software development environments.
+              The degree covered software development, databases, and systems analysis, plus plenty of hands-on
+              coursework in web and mobile, full-stack builds, and wiring smaller apps into larger systems.
             </p>
-            <img class="education-image" src="./assets/img/sliit.jpg" alt="SLIIT logo" width="600" height="220" loading="lazy">
+            <div class="education-media">
+              <img
+                class="education-image"
+                src="./assets/img/sliit.jpg"
+                alt="SLIIT campus buildings"
+                width="1200"
+                height="675"
+                loading="lazy"
+              >
+            </div>
           </article>
         </div>
       </div>
@@ -130,7 +158,7 @@
     <section class="section" id="skills">
       <div class="container">
         <div class="section-heading reveal">
-          <p class="section-kicker">Core capabilities</p>
+          <p class="section-kicker">Stack</p>
           <h2>Skills</h2>
         </div>
 
@@ -189,29 +217,65 @@
     <section class="section" id="experience">
       <div class="container">
         <div class="section-heading reveal">
-          <p class="section-kicker">Practical impact</p>
+          <p class="section-kicker">Recent work</p>
           <h2>Experience</h2>
         </div>
 
         <article class="timeline-card card reveal">
           <div class="timeline-header">
-            <h3>Software Engineer Intern</h3>
-            <p>Gamage Recruiters · Remote · 6 Months</p>
+            <h3>AI Automation Engineer (Associate & Intern)</h3>
+            <p>Lanka.tax / MY Online (Pvt) Ltd, currently working</p>
           </div>
           <p>
-            During my internship at Gamage Recruiters, I worked as a full-stack developer on two enterprise-grade
-            systems: the <strong>Client Management System (CMS)</strong> and the <strong>Financial Management System (FMS)</strong>.
-            I was involved in the full software lifecycle — from UI prototyping and database design to API integration
-            and team collaboration.
+            Building and running automation for <strong>a production tax-filing portal</strong>: end-to-end
+            <strong>Python</strong> and <strong>Playwright</strong> pipelines, <strong>AWS</strong> serverless orchestration,
+            <strong>Salesforce</strong> sync, and monitoring so tax workflows need less manual handling.
           </p>
           <ul class="list-points">
-            <li><strong>Led a sub-team of 6 developers</strong> to design and build the Task Management component of the CMS application.</li>
-            <li>Implemented dynamic and responsive UIs using <strong>React.js</strong> based on Hi-Fi <strong>Figma</strong> prototypes.</li>
-            <li>Developed RESTful backend services using <strong>Node.js</strong> and <strong>Express.js</strong>, ensuring clean architecture and scalable logic.</li>
-            <li>Designed and normalized <strong>MySQL database schemas</strong>, implemented CRUD operations, and optimized performance.</li>
-            <li>Collaborated within a 4-member <strong>integration team</strong> to manage and sync modules across both CMS and FMS using <strong>GitHub</strong>.</li>
-            <li>Ensured seamless front-end and back-end connectivity across modules using consistent data structures and APIs.</li>
-            <li>Participated in sprint reviews, peer code reviews, and Agile-based development cycles to deliver production-quality code.</li>
+            <li><strong>Built and deployed</strong> end-to-end automation pipelines for that portal with <strong>Python</strong> and <strong>Playwright</strong>, cutting manual tax processing load.</li>
+            <li><strong>Designed</strong> a serverless orchestration setup on <strong>AWS</strong> (<strong>Lambda</strong> + <strong>ECS Fargate</strong>) to start and manage workflows (Return Filing, PIN Requests, Payment Info, DIN).</li>
+            <li><strong>Developed</strong> a centralized automation orchestrator <strong>API</strong> to route tasks from <strong>customer ID</strong> and <strong>tax year</strong> inputs.</li>
+            <li><strong>Integrated</strong> automations with <strong>Salesforce CRM</strong> so tax file status, logs, and customer records update in real time.</li>
+            <li><strong>Implemented</strong> error handling and logging with <strong>MongoDB</strong> and <strong>CloudWatch</strong> for monitoring, debugging, and audit trails.</li>
+            <li><strong>Engineered</strong> timeout and batch-processing rules to avoid session loss on large document uploads.</li>
+            <li><strong>Automated</strong> data extraction and validation with <strong>AI models</strong> (<strong>Gemini</strong> / <strong>OpenAI</strong>) for tax-related documents.</li>
+            <li><strong>Secured</strong> credentials with <strong>AWS Secrets Manager</strong> instead of env-only config for production.</li>
+            <li><strong>Built and tested</strong> <strong>API Gateway</strong> + <strong>Lambda</strong> integrations to trigger automations over secure endpoints.</li>
+            <li><strong>Collaborated</strong> with senior developers on <strong>Salesforce Flow</strong> integrations and production debugging.</li>
+          </ul>
+          <div class="tag-list">
+            <span>Python</span>
+            <span>Playwright</span>
+            <span>AWS Lambda</span>
+            <span>ECS Fargate</span>
+            <span>API Gateway</span>
+            <span>MongoDB</span>
+            <span>CloudWatch</span>
+            <span>Secrets Manager</span>
+            <span>Salesforce</span>
+            <span>Gemini</span>
+            <span>OpenAI</span>
+          </div>
+        </article>
+
+        <article class="timeline-card card reveal">
+          <div class="timeline-header">
+            <h3>Software Engineer (Intern)</h3>
+            <p>Gamage Recruiters, remote, 6 months</p>
+          </div>
+          <p>
+            Internship as a full-stack developer on two production-style products: the
+            <strong>Client Management System (CMS)</strong> and the <strong>Financial Management System (FMS)</strong>.
+            Work spanned UI mockups, database design, APIs, and shipping with the rest of the team.
+          </p>
+          <ul class="list-points">
+            <li><strong>Led a six-person group</strong> that owned the CMS task-management slice end to end.</li>
+            <li><strong>Built</strong> responsive <strong>React</strong> screens from <strong>Figma</strong> hi-fi specs.</li>
+            <li><strong>Shipped</strong> <strong>Node</strong> and <strong>Express</strong> REST services with a layout that stayed readable as features grew.</li>
+            <li><strong>Designed</strong> normalized <strong>MySQL</strong> schemas, CRUD paths, and a few query passes where things slowed down.</li>
+            <li><strong>Worked</strong> on a four-person integration crew to keep CMS and FMS modules aligned on <strong>GitHub</strong>.</li>
+            <li><strong>Matched</strong> front-end payloads to the same API contracts so cross-module calls did not drift.</li>
+            <li><strong>Joined</strong> sprint demos, peer reviews, and an Agile release rhythm; merges were expected to be release-safe.</li>
           </ul>
           <div class="tag-list">
             <span>React.js</span>
@@ -234,30 +298,60 @@
     <section class="section" id="projects">
       <div class="container">
         <div class="section-heading reveal">
-          <p class="section-kicker">Selected work</p>
+          <p class="section-kicker">Work samples</p>
           <h2>Projects</h2>
         </div>
 
         <div class="project-grid">
           <article class="project-card project-card--featured card reveal">
             <div class="project-media">
-              <span class="project-badge">Featured</span>
+              <span class="project-badge">Latest</span>
+              <img src="./assets/img/Projects_Images/Zumora-AI-Home.png" alt="Zumora AI landing page" width="800" height="500" loading="lazy">
+            </div>
+            <div class="project-content">
+              <h3>Zumora AI</h3>
+              <p class="project-meta">Live AI SaaS Platform | Full-Stack Developer</p>
+              <div class="project-body">
+                <p>
+                  Production-ready MERN SaaS for AI image generation and photo editing with multi-provider model switching,
+                  secure auth, usage controls, and a full admin panel for operational management.
+                </p>
+                <details class="project-details">
+                  <summary>Key highlights</summary>
+                  <div class="project-details-body">
+                    <p><strong>AI features:</strong> text-to-image generation, style-based photo editing, before/after comparison slider, prompt and image history, instant download/share.</p>
+                    <p><strong>Providers:</strong> Google Gemini, NVIDIA NIM, Hugging Face, and GitHub Models for reliability, cost control, and flexible model routing.</p>
+                    <p><strong>SaaS system:</strong> JWT auth, Google OAuth, OTP verification and reset, daily usage limits, user dashboard, profile management, and admin analytics tools.</p>
+                  </div>
+                </details>
+              </div>
+              <div class="tag-list">
+                <span>React.js</span><span>Tailwind CSS</span><span>Context API</span><span>Node.js</span><span>Express.js</span><span>MongoDB</span><span>JWT</span><span>Google OAuth</span><span>Gemini</span><span>NVIDIA NIM</span><span>Hugging Face</span><span>GitHub Models</span><span>Cloudinary</span><span>Vercel</span><span>Render</span><span>MongoDB Atlas</span>
+              </div>
+              <div class="project-actions">
+                <a class="link-pill" href="https://zumora-ai.vercel.app/" target="_blank" rel="noopener noreferrer"><i class="bx bx-link-external"></i> Live Demo</a>
+                <span class="link-pill link-pill--muted">Case Study (link ready)</span>
+              </div>
+            </div>
+          </article>
+
+          <article class="project-card card reveal">
+            <div class="project-media">
               <img src="./assets/img/Projects_Images/RP_Automation_DashBoard.png" alt="Smart greenhouse dashboard" width="800" height="500" loading="lazy">
             </div>
             <div class="project-content">
               <h3>Smart Greenhouse Decision Support System</h3>
-              <p class="project-meta">Final Year Research Project · June 2024 – June 2025</p>
+              <p class="project-meta">Final year research, June 2024 to June 2025</p>
               <div class="project-body">
                 <p>
-                  Designed and developed a smart, IoT-based decision support system to enhance tomato cultivation through
-                  precise environmental monitoring and intelligent automation. The system integrates real-time data collection,
-                  ML-driven irrigation prediction, automated control mechanisms, and a user-friendly dashboard for monitoring and control.
+                  IoT plus ML for tomato greenhouses: live sensors, models for when to water, hardware to run pumps and fans,
+                  and a web dashboard to watch and override everything.
                 </p>
                 <details class="project-details">
-                  <summary>Objectives &amp; team scope</summary>
+                  <summary>Objectives and team split</summary>
                   <div class="project-details-body">
-                    <p><strong>Main objectives:</strong> predict optimal watering using sensor data and ML; automate irrigation, fan, ventilation, and alarms; provide interactive web access for monitoring and logging.</p>
-                    <p><strong>Team contributions:</strong> IoT environmental monitoring &amp; watering optimization; fertilizer scheduling; harvesting schedule optimization; tomato disease detection &amp; treatment recommendations.</p>
+                    <p><strong>Goals:</strong> use sensor data plus ML to time irrigation; automate irrigation, fans, vents, and alarms; give growers a simple web UI for logs and manual control.</p>
+                    <p><strong>Team pieces:</strong> IoT and watering tuning; fertilizer timing; harvest timing; disease detection and treatment hints.</p>
                   </div>
                 </details>
               </div>
@@ -279,9 +373,8 @@
               <p class="project-meta">Role: Full-Stack Developer</p>
               <div class="project-body">
                 <p>
-                  Developed a full-featured online event ticketing system for a leading Sri Lankan event management company.
-                  Implemented role-based access for Admin, Organizers, and Customers, secure user authentication, event management,
-                  online ticket booking, QR-coded e-tickets, loyalty points, discounts, and detailed sales and user reports.
+                  Ticketing stack for a large Sri Lankan events company. Admin, organizer, and customer roles; auth; event CRUD;
+                  checkout with QR e-tickets; loyalty and discounts; sales and user reporting.
                 </p>
               </div>
               <div class="tag-list">
@@ -302,9 +395,7 @@
               <p class="project-meta">Role: Full-Stack Developer</p>
               <div class="project-body">
                 <p>
-                  Developed a role-based bakery management system with secure authentication for Admin, Staff, and Customers.
-                  Implemented features for product management, order processing, inventory tracking, and sales monitoring
-                  to streamline bakery operations.
+                  Bakery ops app with roles for admin, staff, and customers. Covers catalog, orders, stock, and simple sales views.
                 </p>
               </div>
               <div class="tag-list">
@@ -322,12 +413,11 @@
             </div>
             <div class="project-content">
               <h3>Client Management System (CMS)</h3>
-              <p class="project-meta">Internship · Web Developer &amp; Group Leader</p>
+              <p class="project-meta">Internship, web developer and group lead</p>
               <div class="project-body">
                 <p>
-                  Led the development of a web-based Client Management System during my internship. As the group leader, I
-                  designed and implemented all task management features, including responsive admin-side and employee-side
-                  interfaces, plus the back-end for seamless task management and real-time updates, with a mobile-first approach.
+                  Group lead on the internship CMS. I owned the task-management slice: responsive admin and staff views,
+                  APIs, and DB work so status updates showed up without a refresh dance.
                 </p>
               </div>
               <div class="tag-list">
@@ -345,11 +435,10 @@
             </div>
             <div class="project-content">
               <h3>Shopping Mall Web Application (Ezy-Mall)</h3>
-              <p class="project-meta">IT Project Management (ITPM) · 3rd Year, 2nd Semester</p>
+              <p class="project-meta">ITPM, year 3 semester 2</p>
               <div class="project-body">
                 <p>
-                  Designed and developed a full-stack MERN web application for a shopping mall. Implemented separate admin and client
-                  sides for managing shop details, products, shop owners, and customers, with a live vehicle parking system and a collaborative live chat room.
+                  MERN mall app (Ezy-Mall): split admin and shopper flows, shop and product CRUD, live parking view, and a shared chat room.
                 </p>
               </div>
               <div class="tag-list">
@@ -367,11 +456,10 @@
             </div>
             <div class="project-content">
               <h3>Social Media Fitness Web Application</h3>
-              <p class="project-meta">Programming Application Interface (PAF) · 3rd Year, 2nd Semester</p>
+              <p class="project-meta">PAF, year 3 semester 2</p>
               <div class="project-body">
                 <p>
-                  Developed a social media web application focused on fitness: users can share fitness details, track workouts,
-                  and connect with other fitness enthusiasts. Dynamic data fetching via APIs, mobile responsive layout, and Git/GitHub for version control.
+                  Fitness social app: profiles, workouts, and feeds backed by APIs. Responsive layout; GitHub for source control.
                 </p>
               </div>
               <div class="tag-list">
@@ -389,11 +477,10 @@
             </div>
             <div class="project-content">
               <h3>Hi-Fi Prototype Development (UI/UX)</h3>
-              <p class="project-meta">Human Computer Interaction (HCI) · 3rd Year, 1st Semester</p>
+              <p class="project-meta">HCI, year 3 semester 1</p>
               <div class="project-body">
                 <p>
-                  Led frontend development and UI/UX design for an HCI module project: identifying usability issues within a given system
-                  and applying HCI theories to deliver a seamless, intuitive user experience.
+                  HCI module: led frontend and UX on a redesign brief. Ran usability checks on an existing flow and rebuilt the hi-fi in Figma.
                 </p>
               </div>
               <div class="tag-list">
@@ -411,11 +498,10 @@
             </div>
             <div class="project-content">
               <h3>E-Commerce Shopping Application</h3>
-              <p class="project-meta">Information Technology Project (ITP) · 2nd Year, 2nd Semester</p>
+              <p class="project-meta">ITP, year 2 semester 2</p>
               <div class="project-body">
                 <p>
-                  Developed and implemented a comprehensive web application for an e-commerce shopping cart system,
-                  collaborating with a multidisciplinary team to integrate frontend and backend components.
+                  MERN e-commerce build with the team: cart flow, catalog glue, and wiring front to back so demos stayed stable.
                 </p>
               </div>
               <div class="tag-list">
@@ -433,11 +519,10 @@
             </div>
             <div class="project-content">
               <h3>Financial Management App</h3>
-              <p class="project-meta">Mobile Application Development (MAD) · 2nd Year, 2nd Semester</p>
+              <p class="project-meta">MAD, year 2 semester 2</p>
               <div class="project-body">
                 <p>
-                  Developed a mobile app for financial management using Android Studio and Kotlin, integrating Firebase
-                  for secure data storage. Users can track expenses, manage income, and create personalized budgets.
+                  Kotlin Android app for personal finance: Firebase backend, expense and income tracking, simple budgets.
                 </p>
               </div>
               <div class="tag-list">
@@ -455,11 +540,10 @@
             </div>
             <div class="project-content">
               <h3>Online Vehicle Service Management System</h3>
-              <p class="project-meta">Object-Oriented Programming (OOP) · 2nd Year, 1st Semester</p>
+              <p class="project-meta">OOP, year 2 semester 1</p>
               <div class="project-body">
                 <p>
-                  Implemented a web application for vehicle service management using Servlets, Java, JavaScript, HTML, CSS, and MySQL.
-                  Users can schedule services, track vehicle maintenance, and streamline the service management process.
+                  Vehicle service booking in Java servlets plus plain JS, HTML, CSS, and MySQL. Book slots, see history, keep the shop side organized.
                 </p>
               </div>
               <div class="tag-list">
@@ -477,9 +561,9 @@
             </div>
             <div class="project-content">
               <h3>Web Application</h3>
-              <p class="project-meta">Internet and Web Technologies (IWT) · 1st Year, 2nd Semester</p>
+              <p class="project-meta">IWT, year 1 semester 2</p>
               <div class="project-body">
-                <p>Developed a basic web application as part of the Internet and Web Technologies course.</p>
+                <p>First-year web coursework: small full stack with PHP, MySQL, and front-end basics.</p>
               </div>
               <div class="tag-list">
                 <span>JavaScript</span><span>HTML</span><span>PHP</span><span>CSS</span><span>MySQL</span>
@@ -493,10 +577,79 @@
       </div>
     </section>
 
+    <div class="project-modal" id="project-modal" aria-hidden="true">
+      <div class="project-modal-backdrop" data-modal-close="true"></div>
+      <section
+        class="project-modal-dialog"
+        role="dialog"
+        aria-modal="true"
+        aria-labelledby="project-modal-title"
+        aria-describedby="project-modal-tagline"
+      >
+        <button class="project-modal-close" id="project-modal-close" type="button" aria-label="Close project details">
+          <i class="bx bx-x"></i>
+        </button>
+
+        <div class="project-modal-layout">
+          <div class="project-modal-gallery">
+            <div class="project-slider" id="project-slider" aria-live="polite"></div>
+
+            <div class="project-slider-nav" id="project-slider-nav">
+              <button class="project-slider-arrow" id="project-slider-prev" type="button" aria-label="Previous image">
+                <i class="bx bx-chevron-left"></i>
+              </button>
+              <div class="project-slider-dots" id="project-slider-dots" role="tablist" aria-label="Project images"></div>
+              <button class="project-slider-arrow" id="project-slider-next" type="button" aria-label="Next image">
+                <i class="bx bx-chevron-right"></i>
+              </button>
+            </div>
+          </div>
+
+          <div class="project-modal-content">
+            <p class="project-modal-kicker">Project details</p>
+            <h3 id="project-modal-title">Project</h3>
+            <p class="project-modal-tagline" id="project-modal-tagline"></p>
+
+            <div class="project-modal-tags" id="project-modal-tags"></div>
+
+            <div class="project-modal-section">
+              <h4>Overview</h4>
+              <p id="project-modal-description"></p>
+            </div>
+
+            <div class="project-modal-section">
+              <h4>Problem solved</h4>
+              <p id="project-modal-problem"></p>
+            </div>
+
+            <div class="project-modal-section">
+              <h4>Key features</h4>
+              <ul id="project-modal-features"></ul>
+            </div>
+
+            <div class="project-modal-section">
+              <h4>Role and contribution</h4>
+              <p id="project-modal-role"></p>
+            </div>
+
+            <div class="project-modal-section">
+              <h4>Tech stack</h4>
+              <div class="project-modal-stack" id="project-modal-stack"></div>
+            </div>
+
+            <div class="project-modal-footer">
+              <span class="project-modal-status" id="project-modal-status"></span>
+              <div class="project-modal-links" id="project-modal-links"></div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+
     <section class="section" id="certificates">
       <div class="container">
         <div class="section-heading reveal">
-          <p class="section-kicker">Professional development</p>
+          <p class="section-kicker">Learning</p>
           <h2>Certificates</h2>
         </div>
 
@@ -521,7 +674,7 @@
     <section class="section" id="contact">
       <div class="container">
         <div class="section-heading reveal">
-          <p class="section-kicker">Let's connect</p>
+          <p class="section-kicker">Reach out</p>
           <h2>Contact</h2>
         </div>
 
@@ -534,7 +687,7 @@
               <li><strong>Phone:</strong> <a href="tel:+94758396064">(+94) 075-8396064</a>, <a href="tel:+94768437336">(+94) 076-8437336</a></li>
             </ul>
             <ul class="social-list" aria-label="Contact social links">
-              <li><a href="https://github.com/IT21231896" target="_blank" rel="noopener noreferrer" aria-label="GitHub"><i class="bx bxl-github"></i></a></li>
+              <li><a href="https://github.com/AsardeenAzees" target="_blank" rel="noopener noreferrer" aria-label="GitHub"><i class="bx bxl-github"></i></a></li>
               <li><a href="https://www.linkedin.com/in/asardeen-azees/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn"><i class="bx bxl-linkedin-square"></i></a></li>
               <li><a href="https://web.facebook.com/kijan.mohamed.7" target="_blank" rel="noopener noreferrer" aria-label="Facebook"><i class="bx bxl-facebook-circle"></i></a></li>
               <li><a href="https://instagram.com/hijan_azar?igshid=YTQwZjQ0NmI0OA==" target="_blank" rel="noopener noreferrer" aria-label="Instagram"><i class="bx bxl-instagram"></i></a></li>
@@ -554,7 +707,7 @@
               </label>
               <label>
                 Message
-                <textarea name="message" rows="6" placeholder="How can I help you?" required></textarea>
+                <textarea name="message" rows="6" placeholder="What would you like to talk about?" required></textarea>
               </label>
               <button type="submit" class="btn btn-primary" id="send-button">Send Message</button>
               <p class="form-status" id="form-status" role="status" aria-live="polite"></p>
